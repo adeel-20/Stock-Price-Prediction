@@ -1,0 +1,8 @@
+sklearn
+keras
+numpy 
+pandas 
+os
+matplotlib
+utils
+flask
