@@ -9,12 +9,6 @@ import pandas as pd
 # Flask constructor takes the name of
 # current module (__name__) as argument.
 app = Flask(__name__)
-#
-# @app.route('/favicon.ico')
-# def favicon():
-#     return send_from_directory(os.path.join(app.root_path, 'static'),
-#                           'favicon.ico',mimetype='image/vnd.microsoft.icon')
-
 
 def perform_training(stock_name, df, models_list):
     all_colors = {'SVR_linear': '#FF9EDD',
